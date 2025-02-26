@@ -6,9 +6,9 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 window.onload = function() {
-  let who = ['Trump', 'An alien', 'A sausage', 'Some weird guy', 'Deimián and Cristian'];
+  let who = ['A duck', 'An alien', 'A sausage', 'Some weird guy', 'Deimián and Cristian'];
 let action = ['got stuck in' , 'climbed', 'surfed', 'jumped over', 'starred at'];
-let what = ['a chicken', 'my chocolate fondue', 'Elon Musk', 'the left ear\'s dog', 'the Tindfjallajökull'];
+let what = ['a chicken', 'my chocolate fondue', 'a goose', 'the left ear\'s dog', 'the Tindfjallajökull'];
 let when = ['5 mn ago!', 'when making a strike at the same time!', 'while gently drinking a \"Cheesed to Meet Blue\"... ', 'in a way that could be your future!', 'at the worst moment of your fuzzy uncle\'s hiccups crisis!'];
 
 function getRandomInt(max) {
