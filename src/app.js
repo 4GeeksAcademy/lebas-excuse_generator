@@ -1,10 +1,3 @@
-import "bootstrap";
-import "./style.css";
-
-
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
 window.onload = function() {
   let who = ['A duck', 'An alien', 'A sausage', 'Some weird guy', 'Deimián and Cristian'];
 let action = ['got stuck in' , 'climbed', 'surfed', 'jumped over', 'starred at'];
@@ -16,7 +9,7 @@ function getRandomInt(max) {
 }
 
 document.getElementById("excuse").innerHTML = who[getRandomInt(1)]+" "+action[getRandomInt(1)]+" "+what[getRandomInt(1)]+" "+when[getRandomInt(1)];
-console.log(who[getRandomInt(1)]+" "+action[getRandomInt(1)]+" "+what[getRandomInt(1)]+" "+when[getRandomInt(1)])
-  
-  //console.log("Hello Rigo from the console!");
 };
+
+  
+
